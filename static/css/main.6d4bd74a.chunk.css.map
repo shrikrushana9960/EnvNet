@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AACA,KACI,wBACJ","file":"main.6d4bd74a.chunk.css","sourcesContent":["@import '~antd/dist/antd.css';\r\nbody{\r\n    background-color:#cbd1d6;\r\n}"]}
