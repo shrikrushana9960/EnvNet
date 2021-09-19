@@ -1,6 +1,6 @@
 {
   "name": "envnet",
-  "homepage": "http://shrikrushana9960.github.io/EnvNet",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
