@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EnvNet/static/css/main.6d4bd74a.chunk.css",
-    "main.js": "/EnvNet/static/js/main.5f5d2758.chunk.js",
-    "main.js.map": "/EnvNet/static/js/main.5f5d2758.chunk.js.map",
+    "main.js": "/EnvNet/static/js/main.210d1a8d.chunk.js",
+    "main.js.map": "/EnvNet/static/js/main.210d1a8d.chunk.js.map",
     "runtime-main.js": "/EnvNet/static/js/runtime-main.f0b28df5.js",
     "runtime-main.js.map": "/EnvNet/static/js/runtime-main.f0b28df5.js.map",
     "static/css/2.786ae0dd.chunk.css": "/EnvNet/static/css/2.786ae0dd.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.786ae0dd.chunk.css.map": "/EnvNet/static/css/2.786ae0dd.chunk.css.map",
     "static/css/main.6d4bd74a.chunk.css.map": "/EnvNet/static/css/main.6d4bd74a.chunk.css.map",
     "static/js/2.63b430cf.chunk.js.LICENSE.txt": "/EnvNet/static/js/2.63b430cf.chunk.js.LICENSE.txt",
+    "static/media/logo.3e8f91c8.png": "/EnvNet/static/media/logo.3e8f91c8.png",
     "static/media/logo.6ce24c58.svg": "/EnvNet/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
@@ -21,6 +22,6 @@
     "static/css/2.786ae0dd.chunk.css",
     "static/js/2.63b430cf.chunk.js",
     "static/css/main.6d4bd74a.chunk.css",
-    "static/js/main.5f5d2758.chunk.js"
+    "static/js/main.210d1a8d.chunk.js"
   ]
 }
