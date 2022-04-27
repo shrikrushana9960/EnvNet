@@ -1,38 +1,37 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from './Pages/Home/Home';
-import Register from './Pages/Register/Register';
-import SinglePost from "./Pages/SinglePost/SinglePost"
-import Timeline from "./Pages/TimeLine/Timeline"
-import Login from "./Pages/Login/Login"
-import CreatePost from "./Pages/CreatePost/CreatePost"
-import Funds from './Pages/Funds/Funds';
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import {Result} from "antd";
+import Login from './Pages/Login';
+import Pockemon from './Pages/Pockemon';
+import Register from './Pages/Register';
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/funds/:id">
-          <Funds />
-        </Route>
-        <Route path="/login">
+        
+        <Route path="/login" exact>
           <Login />
         </Route>
-        <Route path="/register">
+      
+        <Route path="/home" exact>
+          <Pockemon />
+        </Route>
+        <Route path="/register" exact>
           <Register />
         </Route>
-        <Route path="/home">
-          <Home />
+        <Route path="/" exact>
+          <Login />
         </Route>
-        <Route path="/write">
-          <CreatePost />
-        </Route>
-        <Route path="/post/:id">
-          <SinglePost />
-        </Route>
-        <Route path="/">
-          <Timeline />
-        </Route>
+        
+        <Route>
+            <Result
+              status="404"
+              title="404"
+              subTitle="Sorry, the page you visited does not exist."
+              extra={<NavLink to="/login">Back Home</NavLink>}
+            />
+          </Route>
       </Switch>
     </Router>
   );
